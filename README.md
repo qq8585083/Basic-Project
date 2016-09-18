@@ -6,7 +6,7 @@ Basic-Projectject是一个简易的Android基础项目，方便您快速进行�
 - 日志打印
 - 丰富的工具类
 
-
+通用适配器请参考: [CommonAdapter](https://github.com/qq8585083/CommonAdapter)
 
 ##图片展示
 ![image](https://raw.githubusercontent.com/qq8585083/Basic-Project/master/Quick basic project.gif)
