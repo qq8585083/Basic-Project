@@ -209,6 +209,34 @@ Logger.json(jsonContent);
 //打印xml数据
 Logger.xml(xmlContent);
 ```
-注意事项：确保包装选项是禁用的
 
+##工具类
+* [AppInfoUtil - 应用程序相关信息](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/AppInfoUtil.java) <br/>
+* [BitmapUtil - 图像处理](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/BitmapUtil.java) <br/>
+* [CloseUtil - 实现Closeable对象关闭工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/CloseUtil.java)<br/>
+* [ConversionUtil - 单位转换](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/ConversionUtil.java)<br/>
+* [DataUtil - 数据非空判断工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/DataUtil.java)<br/>
+* [DateUtil - 日期操作](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/DateUtil.java)<br/>
+* [DeviceUtil - 设备信息](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/DeviceUtil.java)<br/>
+* [DoubleClickExitHelper - 双击退出应用程序](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/DoubleClickExitHelper.java)<br/>
+* [EditTextUtil - 文本输入框工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/EditTextUtil.java)<br/>
+* [FileUtil - 文件操作](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/FileUtil.java)<br/>
+* [HtmlUtil - HTML处理](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/HtmlUtil.java)<br/>
+* [IntentUtil - 常用系统Intent](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/IntentUtil.java)<br/>
+* [IpUtil - IP工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/IpUtil.java)<br/>
+* [KeyBoardUtil - 键盘工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/KeyBoardUtil.java)<br/>
+* [MatcherUtil - 正则表达式](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/MatcherUtil.java)<br/>
+* [MoneyUtil - 高精度数据计算](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/MoneyUtil.java)<br/>
+* [NetworkUtil - 网络状态](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/NetworkUtil.java)<br/>
+* [PackageUtil - 包管理](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/PackageUtil.java)<br/>
+* [ResourceUtil - 资源文件操作](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/ResourceUtil.java)<br/>
+* [SDcardUtil - 存储卡工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/SDcardUtil.java)<br/>
+* [SharedPreferencesUtil - 偏好参数存储工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/SharedPreferencesUtil.java)<br/>
+* [StringUtil - 字符串处理工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/StringUtil.java)<br/>
+* [ToastUtil - Toast工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/ToastUtil.java)<br/>
+* [ViewHolder - View复用工具类](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/ViewHolder.java)<br/>
+* [WifiHelper - wifi管理](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/WifiHelper.java)<br/>
+* [WindowUtil - 屏幕管理](https://github.com/qq8585083/Basic-Project/blob/master/basicproject/src/main/java/com/hy/basicproject/utils/WindowUtil.java)<br/>
 
+##感谢
+[logger](https://github.com/orhanobut/logger)
