@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="androideventbus-latest">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.simple/androideventbus/latest/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/org.simple/androideventbus/latest/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.simple/androideventbus/latest/fde8693ebb1c1d5cbe8bd2937b3abfb07f2b209d/androideventbus-latest-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
