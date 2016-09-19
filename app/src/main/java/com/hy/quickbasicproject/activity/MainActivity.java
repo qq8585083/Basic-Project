@@ -245,6 +245,10 @@ public class MainActivity extends AppBaseActivity implements ColorChooserDialog.
         }
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(selectedColor));
         mAdapter.notifyDataSetChanged();
+
+
+
+
 //        ToastUtil.showToast(MainActivity.this, selectedColor + "");
 //        final View rootView = getWindow().getDecorView();
 //        rootView.setDrawingCacheEnabled(true);
