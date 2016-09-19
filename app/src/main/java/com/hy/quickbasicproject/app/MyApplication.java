@@ -26,4 +26,6 @@ public class MyApplication extends Application {
         BasicConfig.getInstance(this).init();
 
     }
+
+
 }

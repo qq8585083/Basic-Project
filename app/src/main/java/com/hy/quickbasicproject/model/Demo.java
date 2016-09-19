@@ -18,6 +18,8 @@ public class Demo implements Serializable {
     public static final int TYPE_EVENT = 0x02;
     public static final int TYPE_CRASH = 0x03;
     public static final int TYPE_FRAGMENT = 0x04;
+    public static  final int TYPE_NIGHT=0x05;
+    public static  final int TPYE_THEME=0x06;
 
     public String title;
     public int bgColor;
@@ -42,6 +44,8 @@ public class Demo implements Serializable {
             demos.add(new Demo("通用适配器", Color.parseColor("#9c27b0"), TYPE_ADAPTER));
             demos.add(new Demo("异常日志收集", Color.parseColor("#e51c23"), TYPE_CRASH));
             demos.add(new Demo("AndroidEventBus", Color.parseColor("#ff9800"), TYPE_EVENT));
+            demos.add(new Demo("夜间模式", Color.parseColor("#3F51B5"), TYPE_NIGHT));
+            demos.add(new Demo("更换主题", Color.parseColor("#8BC34A"), TPYE_THEME));
         }
         return demos;
     }

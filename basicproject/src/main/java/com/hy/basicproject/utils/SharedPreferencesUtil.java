@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
+import com.hy.basicproject.theme.Theme;
+
 /**
  * 偏好参数存储工具类
  *
@@ -97,5 +99,17 @@ public class SharedPreferencesUtil {
      */
     public void remove(String key) {
         mEditor.remove(key).commit();
+    }
+    /**
+     * 取出当前主题
+     */
+    public  Theme getCurrentTheme() {
+        return Theme.valueOf(getStringValue("app_theme", Theme.Brown.name()));
+    }
+    /**
+     * 储存当前主题
+     */
+    public  void setCurrentTheme( Theme currentTheme) {
+        putStringValue("app_theme", currentTheme.name());
     }
 }

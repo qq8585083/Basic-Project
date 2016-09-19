@@ -15,3 +15,5 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+# view res/layout/item_android.xml #generated:8
+-keep class com.yyydjk.gank.theme.ColorTextView { <init>(...); }

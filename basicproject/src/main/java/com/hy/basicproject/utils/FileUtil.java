@@ -405,4 +405,5 @@ public final class FileUtil {
         BigInteger bigInt = new BigInteger(1, digest.digest());
         return bigInt.toString(16);
     }
+
 }

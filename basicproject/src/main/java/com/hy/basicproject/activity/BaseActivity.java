@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.View;
 
 import com.hy.basicproject.fragment.BaseFragment;
@@ -21,18 +22,20 @@ import com.hy.basicproject.utils.SharedPreferencesUtil;
 public abstract class BaseActivity extends AppCompatActivity
         implements View.OnClickListener, IActivity, IRegister {
     private static final String SP_NAME = "firstConfig";
+    protected static  final String INNIGHT="isNight";
     /** Activity状态 */
     public int activityState = DESTROY;
     protected Activity activity;
     protected BaseFragment currentFragment;
-
-    private SharedPreferencesUtil mSharedPreferencesUtil;
+    private boolean isNight;
+    public SharedPreferencesUtil mSharedPreferencesUtil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         activity = this;
         initPre();
+
         BaseActivityStack.getInstance().addActivity(this);
         setContentView(getLayoutResId());
         mSharedPreferencesUtil = new SharedPreferencesUtil(this, SP_NAME);
@@ -41,6 +44,7 @@ public abstract class BaseActivity extends AppCompatActivity
             onFirst();
             mSharedPreferencesUtil.putBooleanValue(simpleName, false);
         }
+        isNight=mSharedPreferencesUtil.getBooleanValue(INNIGHT,false);
         initData();
         initView(savedInstanceState);
         register();
@@ -151,6 +155,14 @@ public abstract class BaseActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
         activityState = RESUME;
+        if (mSharedPreferencesUtil.getBooleanValue(INNIGHT,false) != isNight) {
+            if (mSharedPreferencesUtil.getBooleanValue(INNIGHT,false)) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+            }
+            recreate();
+        }
     }
 
 
@@ -173,7 +185,7 @@ public abstract class BaseActivity extends AppCompatActivity
         unRegister();
         super.onDestroy();
         activityState = DESTROY;
-        BaseActivityStack.getInstance().finishActivity(this);
+//        BaseActivityStack.getInstance().finishActivity(this);
     }
 
 
