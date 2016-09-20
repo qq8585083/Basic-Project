@@ -5,6 +5,9 @@ Basic-Projectject是一个简易的Android基础项目，方便您快速进行�
 - 异常信息收集
 - 日志打印
 - 丰富的工具类
+- 夜间模式
+- 更换主题颜色
+
 
 通用适配器请参考: [CommonAdapter](https://github.com/qq8585083/CommonAdapter)
 
