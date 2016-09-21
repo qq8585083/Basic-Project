@@ -9,6 +9,10 @@ Basic-Projectject是一个简易的Android基础项目，方便您快速进行�
 - 更换主题颜色
 
 
+
+
+
+
 通用适配器请参考: [CommonAdapter](https://github.com/qq8585083/CommonAdapter)
 
 ##图片展示
